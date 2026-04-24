@@ -109,6 +109,15 @@ Not appropriate:
 
 ---
 
+
+## How this came about
+
+This repo started as personal notes from a real setup session — configuring Claude Desktop on macOS to work efficiently against a 600-file TypeScript codebase. The setup hit several non-obvious issues (MCP extension vs config-file conflicts, PATH problems with npx spawns, and others now in TROUBLESHOOTING.md) that took hours to resolve.
+
+I'm publishing these notes now because someone else will almost certainly hit the same gotchas. The workflow section and prompt templates reflect initial patterns that worked for me during setup — I plan to refine both as I actually use the setup day-to-day. Corrections, additions, and PRs from other configurations are very welcome.
+
+This is intentionally a documentation project, not a tool. The tools doing the real work are listed in [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+
 ## License
 
 MIT. See [`LICENSE`](LICENSE).
