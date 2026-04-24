@@ -1,0 +1,23 @@
+{
+  "_comment": "Rename this file to claude_desktop_config.json and place it at ~/Library/Application Support/Claude/. Replace all REPLACE_* placeholders.",
+  "_comment_2": "If you installed filesystem MCP as a Claude Desktop Extension, remove the 'filesystem' block below to avoid conflict.",
+
+  "mcpServers": {
+    "code-review-graph": {
+      "command": "/bin/sh",
+      "args": [
+        "-c",
+        "cd 'REPLACE_WITH_ABSOLUTE_PATH_TO_YOUR_PROJECT' && HOME=REPLACE_WITH_YOUR_HOME_DIR PATH=REPLACE_WITH_YOUR_HOME_DIR/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin exec REPLACE_WITH_YOUR_HOME_DIR/.local/bin/code-review-graph serve"
+      ]
+    },
+
+    "filesystem": {
+      "_comment": "Only include this block if you are NOT using the Claude Desktop filesystem Extension. If you have the Extension installed, delete this entire filesystem block.",
+      "command": "/bin/sh",
+      "args": [
+        "-c",
+        "HOME=REPLACE_WITH_YOUR_HOME_DIR PATH=REPLACE_WITH_YOUR_HOME_DIR/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin exec npx -y @modelcontextprotocol/server-filesystem 'REPLACE_WITH_ABSOLUTE_PATH_TO_YOUR_PROJECT'"
+      ]
+    }
+  }
+}

@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+NOTE: This repository is a documentation project. The MIT license applies only
+to the original work in this repository — the setup guide, templates, prompts,
+and supporting documentation. It does NOT relicense any third-party tools
+referenced by this guide (see ATTRIBUTIONS.md for the tools' own licenses).

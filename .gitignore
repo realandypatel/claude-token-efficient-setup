@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Backups from manual config editing
+*.backup.json
+*.backup*.json
+
+# If anyone clones into their project and runs the graph tool here
+.code-review-graph/
+
+# Environment files — never commit secrets
+.env
+.env.local
+.env.*.local

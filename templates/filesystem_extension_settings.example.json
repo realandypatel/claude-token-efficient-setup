@@ -1,0 +1,13 @@
+{
+  "_comment": "This is the settings file for the Claude Desktop Filesystem Extension.",
+  "_comment_location": "Actual file lives at: ~/Library/Application Support/Claude/Claude Extensions Settings/ant.dir.ant.anthropic.filesystem.json",
+  "_comment_warning": "Usually you edit this via Claude Desktop's Settings UI, not by hand. Only edit directly if the UI can't do what you need.",
+  "_comment_backup": "Before editing this file by hand, back it up: cp '/path/to/file' ~/Desktop/filesystem-ext-settings.backup.json",
+
+  "isEnabled": true,
+  "userConfig": {
+    "allowed_directories": [
+      "REPLACE_WITH_ABSOLUTE_PATH_TO_YOUR_PROJECT"
+    ]
+  }
+}
